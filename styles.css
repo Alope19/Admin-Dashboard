@@ -34,7 +34,7 @@ img{
 .layout-container{
     display: grid;
     grid-template: 1fr 4fr/ 1fr 4fr;
-    height: max(600px,100vh);
+    height: max(1000px,100vh);
 }
 .header{
     background-color: white;
