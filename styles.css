@@ -157,7 +157,12 @@ button:active{
     padding: 20px;
     align-items: end;
     justify-content: end;
+    gap: 10px;
 }
+.project-box>div:last-child>img{
+    height: 25px;
+}
+
 .trending-box,
 .announcements-box{
     background-color: white;
