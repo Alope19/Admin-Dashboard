@@ -196,6 +196,7 @@ button:active{
 .trending-box{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .other-profiles{
     gap: 20px;
@@ -225,21 +226,25 @@ button:active{
     background-image: url(./images/Sandy.png);
 }
 @media screen and (max-width: 600px) {
-    .header,
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 1fr;
+    }
+    .main,
+    .header{
+        grid-column: 1/2;
+    }
     .profile,
-    .main{
-        grid-column: 1/3;
-    }
-    .search{
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
-    .sidebar,
-    .search-account,
-    .buttons{
+    .sidebar{
         display: none;
     }
+
+
     .main{
         grid-template-columns: 1fr;
+    }
+    .header{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
   }
