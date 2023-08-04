@@ -228,7 +228,7 @@ button:active{
 @media screen and (max-width: 600px) {
     body{
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 1fr;
+        grid-template-rows: 200px 1fr;
     }
     .main,
     .header{
@@ -238,8 +238,9 @@ button:active{
     .sidebar{
         display: none;
     }
-
-
+    .search-account{
+        grid-row: 1/2;
+    }
     .main{
         grid-template-columns: 1fr;
     }
