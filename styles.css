@@ -238,4 +238,7 @@ button:active{
     .buttons{
         display: none;
     }
+    .main{
+        grid-template-columns: 1fr;
+    }
   }
