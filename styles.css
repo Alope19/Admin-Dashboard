@@ -192,7 +192,16 @@ button:active{
 .title + div{
     font-size: 13px;
 }
-
+.trending-box{
+    display: flex;
+    flex-direction: column;
+}
+.other-profiles{
+    gap: 20px;
+    align-items: center;
+    flex: auto;
+    display: flex;
+}
 .pfp{
     background-image:url(./images/cowboy-patrick-pfp.png);
     background-position: center,center;
@@ -201,6 +210,18 @@ button:active{
     width: 50px;
     border-radius: 50%;
     flex: none;
+}
+.at{
+    font-weight: 600;
+}
+#one{
+    background-image: url(./images/spongebob.webp);
+}
+#two{
+    background-image: url(./images/handsome-squidward-theodore-mitchell.jpg);
+}
+#three{
+    background-image: url(./images/Sandy.png);
 }
 @media screen and (max-width: 600px) {
     .header,
