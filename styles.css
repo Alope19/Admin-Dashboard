@@ -35,6 +35,23 @@ li>img{
 img{
     height: 30px;
 }
+button{
+    background-color: var(--main-blue);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #13b2f7;
+}
+button:active{
+    background-color:#5bb2d8
+    
+}
 .header{
     background-color: white;
     grid-column: 2/3;
@@ -70,16 +87,6 @@ img{
 }
 .profile>div:last-child>div:last-child{
     font-size: x-large;
-    font-weight: 700;
-}
-.buttons>button{
-    background-color: var(--main-blue);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    height: 40px;
-    width: 100px;
-    font-size: 15px;
     font-weight: 700;
 }
 .sidebar{
@@ -128,7 +135,7 @@ img{
     flex: auto;
     display: grid;
     gap: 30px;
-    grid-template-columns:repeat(auto-fit,minmax(48%,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(47%,1fr));
     grid-template-rows:repeat(auto-fit,1fr);
 }
 .project-box{
