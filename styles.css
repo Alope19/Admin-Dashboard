@@ -143,7 +143,20 @@ button:active{
     border-radius:10px;
     border-left: 10px solid orange;
     padding: 10px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.project-box>div:first-child{
+    font-size:20px;
+    font-weight: 600;
+}
+.project-box>div:last-child{
+    flex: auto;
+    display: flex;
+    padding: 20px;
+    align-items: end;
+    justify-content: end;
 }
 .trending-box,
 .announcements-box{
